@@ -115,4 +115,8 @@ void keyPressed(){
    
  background(113,176,249);  
  }
+ 
+ if (key == 's'){
+   save("screengrab"+frameCount+".png");
+ }
 }
